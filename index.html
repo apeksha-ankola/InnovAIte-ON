@@ -1,0 +1,465 @@
+<!DOCTYPE html>
+   <html lang="en">
+   <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+      <!--=============== FAVICON ===============-->
+      <link rel="shortcut icon" href="assets/img/logo.png" type="image/x-icon">
+
+      <!--=============== REMIX ICONS ===============-->
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.0.0/remixicon.css">
+
+      <!--=============== SWIPER CSS ===============-->
+      <link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
+
+      <!--=============== CSS ===============-->
+      <link rel="stylesheet" href="assets/css/styles.css">
+
+      <title>INNOVAIT-ON</title>
+   </head>
+   <body>
+      <!--==================== HEADER ====================-->
+      <header class="header" id="header">
+         <nav class="nav container">
+            <a href="#" class="nav__logo">
+               <i class="ri-home-fill"></i>INNOVAIT-ON            
+            </a>
+
+            <div class="nav__menu">
+               <ul class="nav__list">
+                 <li class="nav__item">
+                  <a href="#home" class="nav__link active-link">
+                     <i class="ri-home-line"></i>
+                     <span>HOME</span>
+                  </a>
+                 </li>
+
+                 <li class="nav__item">
+                  <a href="#events" class="nav__link">
+                     <i class="ri-news-line"></i>
+                     <span>EVENTS</span>
+                  </a>
+                 </li>
+
+                 <li class="nav__item">
+                  <a href="#members" class="nav__link">
+                     <i class="ri-group-line"></i>
+                     <span>MEMBERS</span>
+                  </a>
+                 </li>
+               </ul>
+            </div>
+
+            <div class="nav__actions">
+               <!-- search button -->
+               <i class="ri-search-line search-button" id="search-button"></i>
+
+               <!-- login button -->
+               <i class="ri-user-add-line login-button" id="login-button"></i>
+
+               <!-- theme button -->
+               <i class="ri-moon-line change-theme" id="theme-button"></i>
+            </div>
+         </nav>
+      </header>
+
+      <!--==================== SEARCH ====================-->
+      <div class="search" id="search-content">
+         <form action="" class="search__form">
+            <i class="ri-search-line search__icon"></i>
+            <input type="search" placeholder="what are you looking for?" class="search__input">
+         </form>
+
+         <i class="ri-close-line search__close " id="search-close"></i>
+      </div>
+
+      <!--==================== LOGIN ====================-->
+      <div class="login grid" id="login-content">
+         <form action="" class="login__form grid">
+            <h3 class="login__title">Log In</h3>
+
+            <div class="login__group grid">
+               <div>
+                  <label for="login-email" class="login__label">Email</label>
+                  <input type="email" placeholder="Enter your email" id="login-email" class="login__input">
+               </div>
+
+               <div>
+                  <label for="login-pass" class="login__label">Password</label>
+                  <input type="password" placeholder="Enter your Password" id="login-pass" class="login__input">
+               </div>
+            </div>
+
+            <div>
+               <span class="login__signup">
+                  Don't have an account?? <a href="#">Sign up!!</a>
+               </span>
+
+               <a href="" class="login__forgot">
+                  You forgot your password
+               </a>
+
+               <button type="submit" class="logion__button button"> Log In</button>
+            </div>
+         </form>
+         <i class="ri-close-line login__close" id="login-close"></i>
+      </div>
+
+      <!--==================== MAIN ====================-->
+      <main class="main">
+         <!--==================== HOME ====================-->
+         <section class="home section" id="home">
+            <div class="home__container container grid">
+               <div class="home__data">
+                  <h1 class="home__title">
+                    INNOVAIT-ON <br>
+                  </h1>
+                  <h3 class="home__subtitle">
+                     Ideate-Innovate-Ignite
+                   </h3>
+                   
+                  <p class="home__description">
+                     Our project-based club is a dynamic community of passionate individuals dedicated to 
+                     bringing ideas to life. Dive into collaborative projects spanning diverse fields, 
+                     from cutting-edge technology to sustainable design. Join us in transforming inspiration 
+                     into tangible results and embark on a journey of innovation, learning, and shared success!!
+                  </p>
+
+                  <a href="#" class="button">Explore now</a>
+               </div>
+
+               <div class="home__images">
+                  <div class="home__swiper swiper">
+                     <div class="swiper-wrapper">
+                        <article class="home__article swiper-slide ">
+                           <img src="assets/img/logo.png" alt="image" class="home__img">
+                        </article>
+
+                        <article class="home__article swiper-slide ">
+                           <img src="assets/img/invite-1.jpg" alt="image" class="home__img">
+                        </article>
+                        <article class="home__article swiper-slide  ">
+                           <img src="assets/img/invite-2.png" alt="image" class="home__img">
+                        </article>
+                        <article class="home__article swiper-slide  ">
+                           <img src="assets/img/event-1.jpg" alt="image" class="home__img">
+                        </article>
+                     </div>
+
+                  </div>
+               </div>
+            </div>
+         </section>
+         <!--==================== EVENTS ====================-->
+         <section class="Events section" id="events">
+            <h2 class="section__title">
+               Events
+            </h2>
+            
+            <div class="events__container container">
+               <div class="events__swiper swiper">
+                  <div class="swiper-wrapper">
+
+                     <article class="events__card swiper-slide">
+                        <img src="assets/img/gamethon.jpg" alt="image" class="events__img">
+                        <h2 class="events__title">Gamethon</h2>
+                        <div class="events__details">
+                           <span class="event__fees">₹ 50 per head</span>
+                        </div>
+                        
+                        <button class="button">Register now!</button>
+                     </article>
+
+                     <article class="events__card swiper-slide">
+                        <img src="assets/img/hackathon.jpg" alt="image" class="events__img">
+
+                        <h2 class="events__title">Web-dev</h2>
+                        <div class="events__details">
+                           <span class="event__fees">₹50 per head</span>
+                        </div>
+                        
+                        <button class="button">Register now!</button>
+                     </article>
+
+                     <article class="events__card swiper-slide">
+                        <img src="assets/img/seminar.jpg" alt="image" class="events__img">
+
+                        <h2 class="events__title">Ai-Seminar</h2>
+                        <div class="events__details">
+                           <span class="event__fees">₹50 per head</span>
+                        </div>
+                        
+                        <button class="button">Register now!</button>
+                     </article>
+
+
+                     <article class="events__card swiper-slide">
+                        <img src="assets/img/blind-coding.png" alt="image" class="events__img">
+
+                        <h2 class="events__title">blind coding</h2>
+                        <div class="events__details">
+                           <span class="event__fees">₹30 per head</span>
+                        </div>
+                        
+                        <button class="button">Register now!</button>
+                     </article>
+                     
+                  </div>
+                  
+                  <div class="swiper-button-prev">
+                     <i class="ri-arrow-left-s-line"></i>
+                  </div>
+                  <div class="swiper-button-next">
+                     <i class="ri-arrow-right-s-line"></i>
+                  </div>
+
+               </div>
+            </div>
+         </section>
+
+         <!--==================== JOIN US ====================-->
+         <section class="Join section">
+            <div class="join__container">
+               <img src="assets/img/club-1.jpg" alt="image" class="join__bg">
+
+               <div class="join__data container grid">
+                  <h2 class="join__title section__title">
+                     Empower Innovation, Ignite Creativity: <br>
+                     Join INNOVAIT-ON for a Journey Beyond Boundaries!
+                  </h2>
+
+                  <form action="" class="join__form">
+                     <input type="email" placeholder="Enter email" class="join__input">
+                     <button type="submit" class="join__button button">Join now!!</button>
+                  </form>
+               </div>
+            </div>
+         </section>
+
+         <!--==================== MEMBERS ====================-->
+         <section class="members section" id="members">
+            <h2 class="section__title">
+               Members of the club
+            </h2>
+
+            <div class="member__container container">
+               <div class="member__swiper swiper">
+                  <div class="swiper-wrapper">
+                     <article class="member__card swiper-slide">
+                        <img src="assets/img/amogh-bharadwaj.jpg" alt="image" class="members__img">
+
+                        <h2 class="member_title">AMOGH BHARADWAJ</h2>
+                        <p class="member_description">
+                           InnovAIte-ON Core member!
+                        </p>
+                     </article>
+
+                     <article class="member__card swiper-slide">
+                        <img src="assets/img/amogh-kotha.jpg" alt="image" class="members__img">
+
+                        <h2 class="member_title">AMOGH KOTHA</h2>
+                        <p class="member_description">
+                           InnovAIte-ON Club head!
+                        </p>
+                     </article>
+                     <article class="member__card swiper-slide">
+                        <img src="assets/img/aadi-kumar.jpg" alt="image" class="members__img">
+
+                        <h2 class="member_title">AADI B KUMAR</h2>
+                        <p class="member_description">
+                           InnovAIte-ON Core member!
+                        </p>
+                     </article>
+
+                     <article class="member__card swiper-slide">
+                        <img src="assets/img/anand-okade.jpg" alt="image" class="members__img">
+
+                        <h2 class="member_title">ANAND OKADE</h2>
+                        <p class="member_description">
+                           InnovAIte-ON Core member!
+                        </p>
+                     </article>
+                     <article class="member__card swiper-slide">
+                        <img src="assets/img/ayaj-anand.jpg" alt="image" class="members__img">
+
+                        <h2 class="member_title">AYAJ ANAND</h2>
+                        <p class="member_description">
+                           InnovAIte-ON Core member!
+                        </p>
+                     </article>
+
+                     <article class="member__card swiper-slide">
+                        <img src="assets/img/dhruva-nu.jpg" alt="image" class="members__img">
+
+                        <h2 class="member_title">DHRUVA N U </h2>
+                        <p class="member_description">
+                           InnovAIte-ON Core member!
+                        </p>
+                     </article>
+
+                     <article class="member__card swiper-slide">
+                        <img src="assets/img/amogh-athreya.jpg" alt="image" class="members__img">
+
+                        <h2 class="member_title">AMOGH ATHHREYA</h2>
+                        <p class="member_description">
+                           InnovAIte-ON Core member!
+                        </p>
+                     </article>
+
+                     <article class="member__card swiper-slide">
+                        <img src="assets/img/sujal-jn.jpg" alt="image" class="members__img">
+
+                        <h2 class="member_title">SUJAL</h2>
+                        <p class="member_description">
+                           InnovAIte-ON Core member!
+                        </p>
+                     </article>
+
+                     <article class="member__card swiper-slide">
+                        <img src="assets/img/nishitha-L.jpg" alt="image" class="members__img">
+
+                        <h2 class="member_title">NISHITHA LOKHANDE</h2>
+                        <p class="member_description">
+                           InnovAIte-ON Core member!
+                        </p>
+                     </article>
+
+                     <article class="member__card swiper-slide">
+                        <img src="assets/img/apeksha-d.jpg" alt="image" class="members__img">
+
+                        <h2 class="member_title">APEKSHA D ANKOLA</h2>
+                        <p class="member_description">
+                           InnovAIte-ON Core member!
+                        </p>
+                     </article>
+
+                     <article class="member__card swiper-slide">
+                        <img src="assets/img/ranjitha-s.jpg" alt="image" class="members__img">
+
+                        <h2 class="member_title">RANJITHA</h2>
+                        <p class="member_description">
+                           InnovAIte-ON Core member!
+                        </p>
+                     </article>
+                  </div>
+
+                  </div>
+                  </div>
+                  </div>
+                  </div>
+                  </div>
+                  </div>
+               </div>
+            </div>
+         </section>
+      </main>
+
+      <!--==================== FOOTER ====================-->
+      <footer class="footer">
+         <div class="footer__container container grid">
+            <a href="#" class="footer__logo">
+               <i class="ri-arrow-right-circle-fill"></i> INNOVAIT-ON
+            </a> 
+            <p class="footer__description">
+               Join us in transforming inspiration<br>
+               into tangible results and <br> 
+               embark on a journey of innovation, learning, and shared success!!
+            </p>
+         </div>
+
+         <div class="footer__data grid">
+            <div>
+               <h3 class="footer__title">Contact Us</h3>
+               
+               <ul class="footer__links">
+                  <li>
+                     <a href="#" class="footer__link">FAQs</a>
+                  </li>
+
+                  <li>
+                     <a href="#" class="footer__link">Privacy Policy</a>
+                  </li>
+
+                  <li>
+                     <a href="#" class="footer__link">Terms and Conditions</a>
+                  </li>
+               </ul>
+            </div>
+
+
+            <div>
+               <h3 class="footer__title">Club</h3>
+               
+               <ul class="footer__links">
+
+                  <li>
+                     <a href="#" class="footer__link">Blog</a>
+                  </li>
+
+                  <li>
+                     <a href="#" class="footer__link">Our team</a>
+                  </li>
+               </ul>
+            </div>
+
+
+            <div>
+               <h3 class="footer__title">Contact us</h3>
+               
+               <ul class="footer__links">
+                  <li>
+                     <address class="footer_info">
+                        RNS Institute of Technology,<br>
+                        Dr. Vishnuvardhan Road,
+                        R R Nagar Post,<br>
+                        Channasandra,<br>
+                        Bengaluru -560 098
+                     </address>
+                  </li>
+
+                  <li>
+                     <address class="footer_info">
+                        +91 80286 11880 /1 /2 <br>
+                        info@rnsit.ac.in
+                     </address>
+                  </li>
+               </ul>
+            </div>
+
+            <div>
+               <h3 class="footer__title">Social</h3>
+               <div class="footer__social">
+                  <a href="https://www.instagram.com/innovaiton_rnsit?igshid=YzAwZjE1ZTI0Zg==" target="_blank" class="footer__social-link">
+                     <i class="ri-instagram-line"></i>
+                  </a>
+
+                  <a href="https://www.linkedin.com/company/innovaiton-rnsit/" target="_blank" class="footer__social-link">
+                     <i class="ri-linkedin-box-line"></i>
+
+                  </a>
+               </div>
+            </div>
+         </div>
+
+         <span class="footer__copy">
+            &#169; All Rights Reserved By RNSIT
+         </span>
+      </footer>
+
+      <!--========== SCROLL UP ==========-->
+      <a href="#" class="scrollup" id="scroll-up">
+         <i class="ri-arrow-up-line"></i>
+
+      </a>
+
+      <!--=============== SCROLL REVEAL ===============-->
+      <script src="assets/js/scrollreveal.min.js"></script>
+
+      <!--=============== SWIPER JS ===============-->
+      <script src="assets/js/swiper-bundle.min.js"></script>
+
+      <!--=============== MAIN JS ===============-->
+      <script src="assets/js/main.js"></script>
+   </body>
+</html>
